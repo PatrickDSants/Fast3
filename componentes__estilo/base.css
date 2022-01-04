@@ -1,0 +1,45 @@
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+    color: #ffc107!important;
+}
+
+.cor-fundo {
+    background-color: #ffc107;
+}
+
+.imagem-carrossel1 {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 400px;
+}
+
+.imagem-carrossel2 {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 400px;
+}
+
+.imagem-carrossel3 {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 400px;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-tamanho {
+    height: 500px;
+    width: auto;
+}
+
+.card-imagem {
+    object-fit: cover;
+    height: 182px;
+    
+}
