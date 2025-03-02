@@ -1,309 +1,288 @@
 <!DOCTYPE html>
-<lang="pt-br">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Fast3</title>
 
-    <link rel="stylesheet" type="text/css" href="componentes__estilo/base.css">
+    <!-- Link para o arquivo CSS local e o CSS do Bootstrap -->
+    <link rel="stylesheet" href="componentes__estilo/base.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Fontes externas do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Pacifico&display=swap" rel="stylesheet">
-    
-
 </head>
 
 <body>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand fonte-titulo cor-especial" href="#">Fast3</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active cor-especial" aria-current="page" href="#">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link cor-especial" href="#">Receitas</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle cor-especial" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Quem somos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item cor-especial" href="#">Cozinheiros</a></li>
-                  <li><a class="dropdown-item cor-especial" href="#">Projetistas</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item cor-especial" href="#">Nossos Premios</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link cor-especial" href="#">contatos</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Procure sua receita" aria-label="Search">
-              <button class="btn btn-outline-warning" type="submit">Buscar</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-</header>
-
-<main>
-    <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="componentes__estilo/img/imagem1carrossel.png" class="d-block w-100 imagem-carrossel1" alt="Imagem de uma receita">
-            <div class="carousel-caption d-none d-md-block h-50">
-              <h1 class="fonte-titulo display-4">Suas Refeições de Forma mais Facil!</h1>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="componentes__estilo/img/imagem2carrossel.jpg" class="d-block w-100 imagem-carrossel2" alt="imagem de uma receita">
-            <div class="carousel-caption d-none d-md-block h-50">
-              <h1 class="fonte-titulo display-4">Economize com Refeições Baratas!</h1>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="componentes__estilo/img/imagem3carrossel.jpeg" class="d-block w-100 imagem-carrossel3" alt="imagem de uma receita">
-            <div class="carousel-caption d-none d-md-block h-50">
-              <h1 class="fonte-titulo display-4">Economize Seu tempo!</h1>
-          </div>
-          </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </section>
-
-      <div class="card text-center">
-        <div class="card-header fonte-titulo cor-especial $gray-900">
-          Fast3
-        </div>
-        <div class="card-body">
-          <h5 class="card-title fonte-titulo cor-especial">Acompanhe abaixo algumas de nossas receitas faceis e rapidas de serem feitas!</h5>
-          <p class="card-text fonte-titulo cor-especial">Para mais conteudo e receitas imperdiveis assine nosso plano.</p>
-          <a href="#" class="btn btn-outline-warning">Assine Aqui</a>
-        </div>
-        <div class="card-footer text-muted">
-          2 dias atrás 
-        </div>
-      </div>
-
-      <Section class="card-tamanho bg-light container-fluid">
-          <div class="row justify-content-center">
-
-      <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
-        <img src="componentes__estilo/img/pastel.jpg" class="card-img-top card-imagem" alt="...">
-        <div class="card-body">
-          <h5 class="card-title fonte-titulo">Massa de Pastel</h5>
-          <p class="card-text text-muted">Uma massa de pastel que fica pronta em 5 minutinhos.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item text-muted">Preparo: 5 minutos</li>
-          <li class="list-group-item text-muted">Favoritos: 65.430</li>
-        </ul>
-        <div class="card-body">
-            <button type="button" class="btn btn-outline-warning">Ver Receita</button>
-            <button type="button" class="btn btn-warning">Favoritar</button>
-        </div>
-        </article>
-      
-      <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
-        <img src="componentes__estilo/img/pao-de-queijo.jpg" class="card-img-top card-imagem" alt="...">
-        <div class="card-body">
-          <h5 class="card-title fonte-titulo">Pão de Queijo</h5>
-          <p class="card-text text-muted">Um delicioso pão de queijo facil e rapido que só leva 3 ingredientes, você vai querer fazer agora.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item text-muted">Preparo: 50 minutos</li>
-          <li class="list-group-item text-muted">Favoritos: 45.670</li>
-        </ul>
-        <div class="card-body">
-            <button type="button" class="btn btn-outline-warning">Ver Receita</button>
-            <button type="button" class="btn btn-warning">Favoritar</button>
-        </div>
-        </article>
-
-      <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
-        <img src="componentes__estilo/img/empadinha.jpg" class="card-img-top card-imagem" alt="...">
-        <div class="card-body">
-          <h5 class="card-title fonte-titulo">Empadinha</h5>
-          <p class="card-text text-muted">Que tal uma empadinha rapida e facil? Seus convidados vão adorar.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item text-muted">Preparo: 40 minutos</li>
-          <li class="list-group-item text-muted">Favoritos: 33.542</li>
-        </ul>
-        <div class="card-body">
-            <button type="button" class="btn btn-outline-warning">Ver Receita</button>
-            <button type="button" class="btn btn-warning">Favoritar</button>
-         </div>
-        </article>
-
-        </div>
-      </Section>
-
-        <div class="w-100 d-none d-md-block"></div>
-        
-        <Section class="card-tamanho bg-light container-fluid">
-            <div class="row justify-content-center">
-  
-        <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
-          <img src="componentes__estilo/img/bolo.png" class="card-img-top card-imagem" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fonte-titulo">Bolo</h5>
-            <p class="card-text text-muted">Um bolo de dar água na boca e com ingredientes que você tem em casa.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-muted">Preparo: 45 minutos</li>
-            <li class="list-group-item text-muted">Favoritos: 54.322</li>
-          </ul>
-          <div class="card-body">
-            <button type="button" class="btn btn-outline-warning">Ver Receita</button>
-            <button type="button" class="btn btn-warning">Favoritar</button>
-          </div>
-          </article>
-        
-        <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
-          <img src="componentes__estilo/img/cookie.jpg" class="card-img-top card-imagem" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fonte-titulo">Cookie com Nutela</h5>
-            <p class="card-text text-muted">Um Cookie saboroso com nutella, você não vai querer parar de comer.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-muted">Preparo: 1 hora e 20 minutos</li>
-            <li class="list-group-item text-muted">Favoritos: 41.906</li>
-          </ul>
-          <div class="card-body">
-            <button type="button" class="btn btn-outline-warning">Ver Receita</button>
-            <button type="button" class="btn btn-warning">Favoritar</button>
-          </div>
-          </article>
-  
-        <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
-          <img src="componentes__estilo/img/ovo-de-colher.jpg" class="card-img-top card-imagem" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fonte-titulo">Ovo de colher</h5>
-            <p class="card-text text-muted">Que tal fazer seu próprio ovo de páscoa?</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-muted">Preparo: 30 minutos</li>
-            <li class="list-group-item text-muted">Favoritos: 22.340</li>
-          </ul>
-          <div class="card-body">
-            <button type="button" class="btn btn-outline-warning">Ver Receita</button>
-            <button type="button" class="btn btn-warning">Favoritar</button>
-           </div>
-          </article>
-  
-          </div>
-        </Section>
-        
-        <Section class="card-tamanho bg-light container-fluid mt-5">
-            <div class="row justify-content-center">
-
-            <h2 class="fonte-titulo cor-especial mb-4 text-center fs-1">Planos</h2>
-
-            <div class="card me-3 border-warning" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title fonte-titulo text-center fs-3">Plano Plus</h5>
-                    <ul class="card-text">
-                        <li>500 Receitas faceis e Rapidas de se fazer.</li>
-                        <li>Vídeos simples de preparações das receitas.</li>
-                        <li> 10 Cursos introdutórios a cozinha.</li>
-                        <li>Certificado reconhecido em todo país.</li>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand fonte-titulo cor-especial" href="#">Fast3</a>
+                <!-- Botão para mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Itens do menu -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active cor-especial" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link cor-especial" href="#">Receitas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle cor-especial" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Quem somos
+                            </a>
+                            <!-- Dropdown com subitens -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item cor-especial" href="#">Cozinheiros</a></li>
+                                <li><a class="dropdown-item cor-especial" href="#">Projetistas</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item cor-especial" href="#">Nossos Prêmios</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link cor-especial" href="#">Contatos</a>
+                        </li>
                     </ul>
-                  <a href="#" class="btn btn-outline-warning">Saiba Mais</a>
+                    <!-- Formulário de busca -->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Procure sua receita" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                    </form>
                 </div>
-              </div>
+            </div>
+        </nav>
+    </header>
 
-              <div class="card me-3 border-warning" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title fonte-titulo text-center fs-3">Plano Mega</h5>
-                  <ul class="card-text">
-                      <li>1000 Receitas faceis e Rapidas de se fazer.</li>
-                      <li>Vídeos detalhados de preparações das receitas.</li>
-                      <li>Contato com chefes do mundo todo.</li>
-                      <li>Cursos introdutórios a cozinha.</li>
-                      <li>Certificado reconhecido em todo país.</li>
-                  </ul>
-                  <a href="#" class="btn btn-outline-warning">Saiba Mais</a>
+    <!-- Carrossel de imagens -->
+    <main>
+        <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="componentes__estilo/img/imagem1carrossel.png" class="d-block w-100 imagem-carrossel1" alt="Imagem de uma receita">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo display-4">Suas Refeições de Forma mais Fácil!</h1>
+                    </div>
                 </div>
-              </div>
-
-              <div class="card border-warning" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title fonte-titulo text-center fs-3">Plano Basico</h5>
-                    <ul class="card-text">
-                        <li>500 Receitas faceis e Rapidas de se fazer.</li>
-                        <li>Vídeos simples de preparações das receitas.</li>
-                    </ul>
-                  <a href="#" class="btn btn-outline-warning">Saiba Mais</a>
+                <div class="carousel-item">
+                    <img src="componentes__estilo/img/imagem2carrossel.jpg" class="d-block w-100 imagem-carrossel2" alt="imagem de uma receita">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo display-4">Economize com Refeições Baratas!</h1>
+                    </div>
                 </div>
-              </div>
-
-              </div>
+                <div class="carousel-item">
+                    <img src="componentes__estilo/img/imagem3carrossel.jpeg" class="d-block w-100 imagem-carrossel3" alt="imagem de uma receita">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo display-4">Economize Seu Tempo!</h1>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </section>
 
-        <section class="mt-5 ms-5">
-            <h2 class="fonte-titulo mb-4 ms-5 cor-especial">Inscrevasse Aqui e receba um desconto de 50% em seu plano de receitas.</h2>
-            <form>
-                <div class="mb-3 ms-5">
-                    <label for="exampleInputNome1" class="form-label">Nome completo.</label>
-                    <input type="text" class="form-control" id="exampleInputNome1" placeholder="Nome completo">
-                  </div>
-                <div class="mb-3 ms-5">
-                  <label for="exampleInputEmail1" class="form-label">Endereço de Email.</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                  <div id="emailHelp" class="form-text">Não compartilharemos seus dados com ninguém.</div>
-                </div>
-                <div class="mb-3 ms-5">
-                  <label for="exampleInputPassword1" class="form-label">Senha.</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha de oito digitos">
+        <!-- Card principal -->
+        <div class="card text-center">
+            <div class="card-header fonte-titulo cor-especial">
+                Fast3
+            </div>
+            <div class="card-body">
+                <h5 class="card-title fonte-titulo cor-especial">Acompanhe abaixo algumas de nossas receitas fáceis e rápidas de serem feitas!</h5>
+                <p class="card-text fonte-titulo cor-especial">Para mais conteúdo e receitas imperdíveis, assine nosso plano.</p>
+                <a href="#" class="btn btn-outline-warning">Assine Aqui</a>
+            </div>
+            <div class="card-footer text-muted">
+                2 dias atrás
+            </div>
+        </div>
+
+        <!-- Card de receitas -->
+        <section class="card-tamanho bg-light container-fluid">
+            <div class="row justify-content-center">
+                <!-- Card para receita de pastel -->
+                <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
+                    <img src="componentes__estilo/img/pastel.jpg" class="card-img-top card-imagem" alt="Imagem de pastel">
+                    <div class="card-body">
+                        <h5 class="card-title fonte-titulo">Massa de Pastel</h5>
+                        <p class="card-text text-muted">Uma massa de pastel que fica pronta em 5 minutinhos.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-muted">Preparo: 5 minutos</li>
+                        <li class="list-group-item text-muted">Favoritos: 65.430</li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-warning">Ver Receita</button>
+                        <button type="button" class="btn btn-warning">Favoritar</button>
+                    </div>
+                </article>
+
+                <!-- Card para receita de pão de queijo -->
+                <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
+                    <img src="componentes__estilo/img/pao-de-queijo.jpg" class="card-img-top card-imagem" alt="Imagem de pão de queijo">
+                    <div class="card-body">
+                        <h5 class="card-title fonte-titulo">Pão de Queijo</h5>
+                        <p class="card-text text-muted">Um delicioso pão de queijo fácil e rápido que só leva 3 ingredientes.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-muted">Preparo: 50 minutos</li>
+                        <li class="list-group-item text-muted">Favoritos: 45.670</li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-warning">Ver Receita</button>
+                        <button type="button" class="btn btn-warning">Favoritar</button>
+                    </div>
+                </article>
+
+                <!-- Card para receita de empadinha -->
+                <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
+                    <img src="componentes__estilo/img/empadinha.jpg" class="card-img-top card-imagem" alt="Imagem de empadinha">
+                    <div class="card-body">
+                        <h5 class="card-title fonte-titulo">Empadinha</h5>
+                        <p class="card-text text-muted">Que tal uma empadinha rápida e fácil? Seus convidados vão adorar.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-muted">Preparo: 40 minutos</li>
+                        <li class="list-group-item text-muted">Favoritos: 33.542</li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-warning">Ver Receita</button>
+                        <button type="button" class="btn btn-warning">Favoritar</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Segunda seção de receitas -->
+        <section class="card-tamanho bg-light container-fluid">
+            <div class="row justify-content-center">
+                <!-- Card para receita de bolo -->
+                <article class="card border-warning p-0 m-4 col-6" style="width: 18rem;">
+                    <img src="componentes__estilo/img/bolo.png" class="card-img-top card-imagem" alt="Imagem de bolo">
+                    <div class="card-body">
+                        <h5 class="card-title fonte-titulo">Bolo</h5>
+                        <p class="card-text text-muted">Um bolo de dar água na boca com ingredientes que você tem em casa.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-muted">Preparo: 45 minutos</li>
+                        <li class="list-group-item text-muted">Favoritos: 54.322</li>
+                    </ul>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-warning">Ver Receita</button>
+                        <button type="button" class="btn btn-warning">Favoritar</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção para planos -->
+        <section class="card-tamanho bg-light container-fluid mt-5">
+            <div class="row justify-content-center">
+                <h2 class="fonte-titulo cor-especial mb-4 text-center fs-1">Planos</h2>
+
+                <!-- Cartões de planos -->
+                <div class="card me-3 border-warning" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fonte-titulo text-center fs-3">Plano Plus</h5>
+                        <ul class="card-text">
+                            <li>500 Receitas fáceis e rápidas de se fazer.</li>
+                            <li>Vídeos simples de preparações das receitas.</li>
+                            <li>10 Cursos introdutórios à cozinha.</li>
+                            <li>Certificado reconhecido em todo o país.</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-warning">Saiba Mais</a>
+                    </div>
                 </div>
 
+                <div class="card me-3 border-warning" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fonte-titulo text-center fs-3">Plano Mega</h5>
+                        <ul class="card-text">
+                            <li>1000 Receitas fáceis e rápidas de se fazer.</li>
+                            <li>Vídeos detalhados de preparações das receitas.</li>
+                            <li>Contato com chefes do mundo todo.</li>
+                            <li>Cursos introdutórios à cozinha.</li>
+                            <li>Certificado reconhecido em todo o país.</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-warning">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <div class="card border-warning" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fonte-titulo text-center fs-3">Plano Básico</h5>
+                        <ul class="card-text">
+                            <li>500 Receitas fáceis e rápidas de se fazer.</li>
+                            <li>Vídeos simples de preparações das receitas.</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-warning">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de inscrição -->
+        <section class="mt-5 ms-5">
+            <h2 class="fonte-titulo mb-4 ms-5 cor-especial">Inscreva-se Aqui e receba um desconto de 50% no seu plano de receitas.</h2>
+            <form>
+                <!-- Formulário de inscrição -->
+                <div class="mb-3 ms-5">
+                    <label for="exampleInputNome1" class="form-label">Nome completo</label>
+                    <input type="text" class="form-control" id="exampleInputNome1" placeholder="Nome completo">
+                </div>
+                <div class="mb-3 ms-5">
+                    <label for="exampleInputEmail1" class="form-label">Endereço de e-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="mb-3 ms-5">
+                    <label for="exampleInputPassword1" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha de oito dígitos">
+                </div>
+
+                <!-- Dropdown para selecionar planos -->
                 <div class="dropdown mb-4 mt-3 ms-5">
                     <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                      Planos
+                        Planos
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Plano Plus</a></li>
-                      <li><a class="dropdown-item" href="#">Plano Mega</a></li>
-                      <li><a class="dropdown-item" href="#">Plano Básico</a></li>
+                        <li><a class="dropdown-item" href="#">Plano Básico</a></li>
+                        <li><a class="dropdown-item" href="#">Plano Plus</a></li>
+                        <li><a class="dropdown-item" href="#">Plano Mega</a></li>
                     </ul>
-                  </div>
-
-                <div class="mb-3 ms-5 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <button type="submit" class="btn btn-warning ms-5">Submit</button>
-              </form>
-        </section>
-</main>
-<footer class="cor-fundo borda-cor-especial p-3 mt-5">
-    <p class="text-light m-0 text-center">contato: <a class="text-light" href="mailto:email@frutafruto.com.br">email@fast3.com.br</a></p>
-  
-  </footer>
-  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+                <!-- Botão para envio -->
+                <button type="submit" class="btn btn-outline-warning ms-5">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-5 bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Fast3 | Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ZvpUoO/+PpNFS5v0XT5D2lAiPLTykD8kP5f5s+F6j0GiZx0W1c1HqUeVdi2u3IK6" crossorigin="anonymous"></script>
 </body>
+
 </html>
